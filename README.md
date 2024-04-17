@@ -1,4 +1,4 @@
-# RAG-Based Q&A Chatbot Pipeline Utilizing Langchain
+# RAG-Based Q&A Chatbot Pipeline Utilizing Langchain :rocket:
 
 ## About RAG Application using Langchain Framework
 
@@ -9,7 +9,7 @@ Let's look at the RAG pipeline architecture.
    - Load the data from multiple sources like text, pdfs, web based loaders, etc.
    - Transform the data i.e divide it into chunks.
    - Create Embeddings either using OpenAI/Ollama embeddings or any other.
-2. Query Database
+2. Query Database :mag:
 3. Retrieve most similar answer to the query.
 
 
@@ -18,7 +18,8 @@ Let's look at the RAG pipeline architecture.
 
 <img src="Output_Images/Pipeline.png" alt="RAG PIPELINE" width="75%" height="300">
 
-</div>
+</div> 
+<br>
 
 
 
@@ -52,6 +53,8 @@ Let's look at the RAG pipeline architecture.
 
 </div>
 
+<br>
+
 
 
 
@@ -82,10 +85,10 @@ pip install -r requirements.txt
 </div>
 
 
-- Now, click on generate API Keys, a text file with typesense admin key will be downloaded. Node name i.e host name is in the above picture (Ex : xxx.a1.typesense.net).
+- Now, click on generate API Keys, a text file :page_facing_up: with typesense admin key will be downloaded. Node name i.e host name is in the above picture (Ex : xxx.a1.typesense.net).
 
 
-- Now, Create a .env file and add your OpenAI API key, Typesense Host and Typesense Admin API Key in it as follows
+- Now, Create a .env file :page_with_curl: and add your OpenAI API key, Typesense Host and Typesense Admin API Key in it as follows
 ```bash
 OPENAI_API_KEY = "enter_your_openai_api_key"
 TYPESENSE_HOST = "enter_your_cloud_host_name"
@@ -96,6 +99,8 @@ TYPESENSE_API_KEY = "enter_your_admin_api_key"
 ```bash
 chainlit run app.py -w
 ```    
+
+- set `vector_store = "chroma"` or `vector_store = "faiss"` in 31st line of `app.py` file to use them as vector stores instead of typesense.
 
 
 
