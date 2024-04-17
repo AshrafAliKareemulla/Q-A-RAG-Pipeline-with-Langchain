@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 <div align = 'center'>
 
-<img src="Output_Images/Typesense_Cluster.png" alt="Typesense Cloud Cluster" width="50%" height="600">
+<img src="Output_Images/Typesense_Cluster.png" alt="Typesense Cloud Cluster" width="75%" height="300">
 
 </div>
 
