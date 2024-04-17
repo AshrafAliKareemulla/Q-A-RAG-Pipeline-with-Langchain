@@ -1,6 +1,11 @@
 # RAG-Based Q&A Chatbot Pipeline Utilizing Langchain :rocket:
 
-## About RAG Application using Langchain Framework
+## About RAG Application using Langchain Framework :zap:
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
 
 Retrieval Augmented Generation is an LLM-based question answering system. This acts as a chatbot when used with Chainlit framework.
 Let's look at the RAG pipeline architecture.
@@ -104,5 +109,16 @@ chainlit run app.py -w
 
 
 
-## Response of LLM
+## Response of OpenAI's ChatGPT 3.5 Turbo Model :maple_leaf:
 
+
+
+<div align = 'center'>
+
+<img src="Output_Images/result_1.png" alt="Result - 1" width="75%" height="300">
+<img src="Output_Images/result_2.png" alt="Result - 2" width="75%" height="300">
+<img src="Output_Images/result_3.png" alt="Result - 3" width="75%" height="300">
+
+</div>
+
+<br>
