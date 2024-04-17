@@ -6,9 +6,9 @@ Retrieval Augmented Generation is an LLM-based question answering system. This a
 Let's look at the RAG pipeline architecture.
 
 1. Load Source Data
-- Load the data from multiple sources like text, pdfs, web based loaders, etc.
-- Transform the data i.e divide it into chunks.
-- Create Embeddings either using OpenAI/Ollama embeddings or any other.
+ - Load the data from multiple sources like text, pdfs, web based loaders, etc.
+ - Transform the data i.e divide it into chunks.
+ - Create Embeddings either using OpenAI/Ollama embeddings or any other.
 2. Query Database
 3. Retrieve most similar answer to the query.
 
