@@ -115,9 +115,11 @@ chainlit run app.py -w
 
 <div align = 'center'>
 
-<img src="Output_Images/result_1.png" alt="Result - 1" width="75%" height="350"> <br>
-<img src="Output_Images/result_2.png" alt="Result - 2" width="75%" height="350"> <br>
-<img src="Output_Images/result_3.png" alt="Result - 3" width="75%" height="350">
+<img src="Output_Images/result_1.png" alt="Result - 1" width="75%" height="350">
+<br> <br>
+<img src="Output_Images/result_2.png" alt="Result - 2" width="75%" height="350">
+<br> <br>
+<img src="Output_Images/result_3.png" alt="Result - 3" width="100%" height="350">
 
 </div>
 
