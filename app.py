@@ -9,8 +9,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.retrieval import create_retrieval_chain
 import chainlit as cl
 from itertools import chain
-import os
 from dotenv import load_dotenv
+import os
+
 
 
 
@@ -20,6 +21,10 @@ from dotenv import load_dotenv
 # Load the environment
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+typesense_host = os.getenv("TYPESENSE_HOST")
+typesense_api_key = os.getenv("TYPESENSE_API_KEY")
+
+
 
 
 
@@ -120,10 +125,10 @@ async def main(message: cl.Message):
         flattened_docs,
         OpenAIEmbeddings(),
         typesense_client_params = {
-        "host" : "czuxlts9ma6pewkdp-1.a1.typesense.net",
+        "host" : typesense_host,
         "port" : "443",
         "protocol" : "https",
-        "typesense_api_key" : "nezaUQR27h4ClkDLgC32nS0wKFaGmBCb",
+        "typesense_api_key" : "",
         "typesense_collection_name" : "lang-chain"
         },)
 
