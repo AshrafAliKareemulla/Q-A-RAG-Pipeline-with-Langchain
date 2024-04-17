@@ -6,14 +6,16 @@ Retrieval Augmented Generation is an LLM-based question answering system. This a
 Let's look at the RAG pipeline architecture.
 
 1. Load Source Data
- - Load the data from multiple sources like text, pdfs, web based loaders, etc.
- - Transform the data i.e divide it into chunks.
- - Create Embeddings either using OpenAI/Ollama embeddings or any other.
+   - Load the data from multiple sources like text, pdfs, web based loaders, etc.
+   - Transform the data i.e divide it into chunks.
+   - Create Embeddings either using OpenAI/Ollama embeddings or any other.
 2. Query Database
 3. Retrieve most similar answer to the query.
 
 
-![RAG PIPELINE](Output_Images/Pipeline.png)
+<img src="Output_Images/Pipeline.png" alt="RAG PIPELINE" width="200" height="200">
+
+
 
 
 ## Detailed overview of the RAG Pipelining
@@ -36,8 +38,11 @@ Let's look at the RAG pipeline architecture.
 
 
 
+<img src="Output_Images/Retrieval_Chain.png" alt="Retrieval Chain" width="200" height="200">
 
-![Retrieval Chain](Output_Images/Retrieval_Chain.png)
+
+
+
 
 
 
@@ -53,7 +58,8 @@ Let's look at the RAG pipeline architecture.
 
 - To start running the Typesense cloud server, visit [Typesense Cloud Cluster](https://cloud.typesense.org/clusters) to create a cluster and you will get a page as shown below.
 
-![RAG PIPELINE](Output_Images/Typesense_Cluster.png)
+<img src="Output_Images/Typesense_Cluster.png" alt="Typesense Cloud Cluster" width="200" height="200">
+
 
 - Now, click on generate API Keys, a text file with typesense admin key will be downloaded. Node name i.e host name is in the above picture (Ex : xxx.a1.typesense.net).
 
